@@ -78,6 +78,19 @@ footer {
   flex: 1;
 }
 
+/* signup form styles */
+@media all and (max-width: 600px) {
+  .signup {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .signup input {
+    flex: 1 1 100%;
+    margin: 5px;
+  }
+}
+
 @media all and (max-width: 1000px) {
   .flex-nav ul {
     flex-wrap: wrap;
